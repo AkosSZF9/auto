@@ -1,0 +1,69 @@
+body {
+    background: black url("kepek/auto_background_14.jpg") no-repeat center center/cover;    
+    color: white;    
+    max-width: 1000px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: orange;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    background-color: rgb(50, 48, 48);
+    padding: 30px;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    border: 10px solid rgb(50, 48, 48);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.8);
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    padding: 20px;
+    margin: 30px;
+    border: 10px solid orange;
+    border-radius: 50%;
+    background-color: rgb(50, 48, 48);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+    transform: scale(1.1);
+    border-color: black;
+}
